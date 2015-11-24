@@ -1,0 +1,2 @@
+deploy: |
+  drush cc all
