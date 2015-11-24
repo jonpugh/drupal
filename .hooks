@@ -3,4 +3,5 @@ verify: |
   env
 
 deploy: |
+  drush status
   drush cc all
