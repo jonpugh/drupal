@@ -1,5 +1,6 @@
 verify: |
   echo "I CAN HAZ DOT HOOKS"
+  env
 
 deploy: |
   drush cc all
