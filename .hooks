@@ -1,7 +1,6 @@
 verify: |
   echo "I CAN HAZ DOT HOOKS"
   env
-  wrongcommand
 
 deploy: |
   drush cc all
