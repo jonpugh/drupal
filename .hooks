@@ -2,5 +2,5 @@ install: |
   drush {{alias}} vset site_name "Hooks Hooks Hooks"
 
 deploy: |
-  drush {{alias}} updb
+  drush {{alias}} updb -y
   drush {{alias}} cc all
