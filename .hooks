@@ -1,7 +1,6 @@
-verify: |
-  echo "I CAN HAZ DOT HOOKS"
-  env
+install: |
+  drush {{alias}} vset site_name "Hooks Hooks Hooks"
 
 deploy: |
-  drush status
-  drush cc all
+  drush {{alias}} updb
+  drush {{alias}} cc all
