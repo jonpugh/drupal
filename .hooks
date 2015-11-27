@@ -4,3 +4,6 @@ install: |
 deploy: |
   drush {{alias}} updb -y
   drush {{alias}} cc all
+
+verify: |
+  drush {{alias}} status
