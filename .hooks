@@ -6,4 +6,5 @@ deploy: |
   drush {{alias}} cc all
 
 verify: |
+  drush {{alias}} uli
   drush {{alias}} status
